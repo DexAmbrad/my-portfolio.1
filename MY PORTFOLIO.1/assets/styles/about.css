@@ -1,0 +1,44 @@
+/* About Section */
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.about-card {
+  display: flex;
+  max-width: 1000px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  overflow: hidden;
+  animation: fadeIn 1.5s ease;
+}
+
+.about-card img {
+  width: 250px;
+  object-fit: cover;
+}
+
+.about-info {
+  padding: 40px;
+  flex: 1;
+}
+
+
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #1abc9c;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #16a085;
+}
